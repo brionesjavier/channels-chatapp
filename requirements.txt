@@ -1,0 +1,6 @@
+# Este es el archivo de dependencias para mi proyecto Django
+Django==5.2.6  # Framework principal
+daphne==4.2.1  # Servidor ASGI para Django Channels
+channels==4.3.1  # WebSockets con Django
+
+
