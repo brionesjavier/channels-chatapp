@@ -1,4 +1,4 @@
-<!-- aqui se van a importar los archivo estatico -->
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,7 +65,7 @@
     <main>
 
         <h1>The best chat application ever !!!</h1>
-        <img src="#chat/chat.png">
+        <img src="{% static 'chat/img/chat.png' %}">
 
         <div>
             <a href="#register"><button>New Member</button></a>
