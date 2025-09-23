@@ -3,6 +3,7 @@ from .login import Login
 from .home import Home
 from .register import Register
 from .chat_person import ChatPerson
+from .logout import Logout
 
 
 __all__ = [
@@ -10,5 +11,6 @@ __all__ = [
     Login,
     Home,
     Register,
-    ChatPerson
+    ChatPerson,
+    Logout
 ]

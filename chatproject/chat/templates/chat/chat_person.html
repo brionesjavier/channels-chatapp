@@ -1,4 +1,4 @@
-
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -230,9 +230,9 @@
 </head>
 <body>
     <header>
-        <a href=""><button>Back</button></a>
+        <a href="{% url 'home' %}"><button>Back</button></a>
         <div>
-            <img src="face.png">
+            <img src="{% static 'chat/img/face.png' %}">
             <p>person's name</p>
         </div>
         <p class="name-of-sender">Me : the user's name</p>

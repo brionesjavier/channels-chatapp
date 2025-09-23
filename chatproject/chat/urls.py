@@ -1,5 +1,5 @@
 from django.urls import path
-from chat.views import Main, Login, Home, Register, ChatPerson
+from chat.views import Main, Login, Home, Register, ChatPerson, Logout
 
 
 urlpatterns = [
@@ -8,5 +8,6 @@ urlpatterns = [
     path('home', Home.as_view(), name='home'),
     path('register', Register.as_view(), name='register'),
     path('chat', ChatPerson.as_view(), name='chat'),
+    path('logout', Logout.as_view(), name='logout')
     
 ]
